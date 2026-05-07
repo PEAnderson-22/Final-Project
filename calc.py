@@ -21,5 +21,7 @@ class Calculator:
 #What I have just done is add in all my formulas. These will take the numbers the user selects and do whichever one they choose.
 
 if __name__=="__main__":
+    c = Calculator()
+    print(c.addition(2, 3)) #This is just a small test to make sure it works.
     
 

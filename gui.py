@@ -4,34 +4,23 @@ from tkinter import messagebox
 history = [] #This will store every equation into a list
 
 #These will give each one of my buttons the ability to actually type the number you press.
-def press_7():
-    entry.insert(END, "7")
-def press_8():
-    entry.insert(END, "8")
-def press_9():
-    entry.insert(END, "9")
-def press_div():
-    entry.insert(END, "/")
-def press_4():
-    entry.insert(END, "4")
-def press_5():
-    entry.insert(END, "5")
-def press_6():
-    entry.insert(END, "6")
-def press_mul():
-    entry.insert(END, "*")
-def press_1():
-    entry.insert(END, "1")
-def press_2():
-    entry.insert(END, "2")
-def press_3():
-    entry.insert(END, "3")
-def press_minus():
-    entry.insert(END, "-")
-def press_0():
-    entry.insert(END, "0")
-def press_plus():
-    entry.insert(END, "+")
+def press_7(): entry.insert(END, "7")
+def press_8(): entry.insert(END, "8")
+def press_9(): entry.insert(END, "9")
+def press_div(): entry.insert(END, "/")
+
+def press_4(): entry.insert(END, "4")
+def press_5(): entry.insert(END, "5")
+def press_6(): entry.insert(END, "6")
+def press_mul(): entry.insert(END, "*")
+
+def press_1(): entry.insert(END, "1")
+def press_2(): entry.insert(END, "2")
+def press_3(): entry.insert(END, "3")
+def press_minus(): entry.insert(END, "-")
+
+def press_0(): entry.insert(END, "0")
+def press_plus(): entry.insert(END, "+")
 
 #Now my gui will actually display your numbers.
 

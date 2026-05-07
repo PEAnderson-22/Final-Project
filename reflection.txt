@@ -1,0 +1,24 @@
+This will be a reflection on my final project.
+
+For this project, I decided to build a simple calculator using a gui, something we recently learned about in class.
+I thought it would be a great way to show everything I learned this semester in my program, which is really what was 
+required for the final project. I started off easy with what I knew how to do easiest, which was my calc.py. Pretty 
+much this entire semester I feel like doing equtions and writing them out was something we did a lot, so I knew exactly how
+to make the correct equation for each operation, including a value error to stop it from doing something that was impossible
+for the code to do. That was the easiest part I'd say. Then I had to create my gui. This was definitely a lot more challenging,
+and for the most part I was trying to use the age checker gui we did in class to help me create this one. That was definitely 
+helpful, but I would need a lot more than that to help. That's where google came in. I knew how to import tkinter at least, so
+that was easy. I made the dimensions of the gui first, and then code that displayed all the buttons in a specific arrangement. 
+At first, before adding all the other stuff, I thought that the buttons would display the number as is. But I learned later 
+on that they would actually only work just as buttons, and not display the number. But before that, I realized I still needed 
+a text box to actually display the numbers and solutions that the user put in. From the age checker I knew that using Entry 
+would help me with that. So I created the line of code for that, and then that's the point where I realized that none of my 
+buttons actually worked as I intended. I looked it up again, this time using Copilot to ask why my code wouldn't work. It 
+told me that they were literally all just buttons, and not actually functions, like they needed to be. It gave me an example 
+of what it should look like, and so I improved my code based on that. Basically I had to define each button press to make it 
+actually display the button the user presses. But then I also needed it to display the solution, which would be done by pressing 
+the = button. So I had to def that on too, but this time it had to be  different, it would need to give the solution AND save it 
+into the history list I created (Which btw I forgot to mention was added because the code needed a list of some kind). After I 
+did that I ran the program to check if it actually worked, and finally, it did. This was definitely the most challenging code 
+I've done yet, but thanks to the resources I had I was able to get it done, and make it look, at least in my opinion, pretty 
+clean. I'm pretty satisfied with how my code turned out, and I feel somewhat certain that it is up to standard.
