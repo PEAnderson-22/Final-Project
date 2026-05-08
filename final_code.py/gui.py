@@ -66,3 +66,6 @@ Button(root, text="=", width=5, height=2, command=handle_equals).grid(row=4, col
 Button(root, text="+", width=5, height=2, command=press_plus).grid(row=4, column=3)
 #Basically what all of those are doing is alligning the numbers and operations(remembered the word finally). I did have to look up how to allign them properly, but once I got one, the rest were pretty easy to do.The first GUI lab we did was helpful for this part.
 root.mainloop() #This will keep the window open and keep it running until the user closes it.
+
+
+#This has now been put in it's own folder.

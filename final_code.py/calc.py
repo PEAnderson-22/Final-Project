@@ -26,3 +26,4 @@ if __name__=="__main__": #Runs this file only when it is opened directly
     print(c.addition(2, 3)) #This is just a small test to make sure it works.
     
 
+#This has now been put in it's own folder.
